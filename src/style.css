@@ -1,0 +1,80 @@
+body{
+    background-image: url ("welcome.jpg") 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    background-color:white;
+    
+    font-family: 'Cabin Sketch', cursive;
+    color:rgb(6, 44, 13);
+    font-size:1.2rem;
+    line-height: 1.6em;
+    margin:0;
+    }  
+    
+   
+    
+    
+    
+     h1{
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 20px;
+        color:#18810b;
+    
+    }
+    
+    
+    input[type=text]:focus {
+        border-radius: 30px;
+        border-color:#05361e;
+        border-width: 1px;
+    }
+    
+    input[type=password]:focus {
+        border-radius: 30px;
+        border-color:#05361e;
+        border-width: 1px;
+        outline: none;
+    }
+    
+    
+    textarea{
+       border-radius: 30px;
+       border-color:#18810b;
+       border-width: 1px;
+       height: 100px;
+       width: 350px;
+       background: rgba(245, 245, 245, 0.3); 
+       font-family: 'Cabin Sketch', cursive; 
+       color: rgb(15, 68, 15);
+     }
+    
+    input{
+        border-radius: 30px;
+        border-color:#18810b;
+        border-width: 1px;
+        height: 20px; 
+        width: 200px;
+        background: rgba(245, 245, 245, 0.3); 
+      }
+      
+      button{
+        border-radius: 30px;
+        border-color:#18810b;
+        border-width: 1px;
+        background-color: rgb(0, 128, 0);
+        font-family: 'Cabin Sketch', cursive;
+        color:rgb(106, 240, 106)
+      }
+
+
+
+
+
+      .footer {
+          background:linear-gradient(rgb(6, 117, 15),rgb(54, 121, 54), rgb(73, 179, 87));
+          padding:.2rem 0;
+          text-align: center;
+          margin-top: 1rem;
+      }
